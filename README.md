@@ -14,8 +14,8 @@
 - Nectarines  
 
 ## 📞 Contact
-- ✉️ Email: friva.fruits@gmail.com  
-- 📱 Instagram: @friva.fruits  
+- ✉️ Email: frivafruits@gmail.com  
+- 📱 Instagram: @frivafruits  
 - 📍 Origin: Iran  
 
 ---
