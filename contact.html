@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — Friva</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+
+<header class="site-header">
+  <div class="brand">
+    <img src="images/logo.jpg" alt="Friva Logo" class="logo">
+    <span class="brand-name" data-i18n="brandName">Friva Export</span>
+  </div>
+  <nav class="nav">
+    <a href="index.html" data-i18n="nav.home">Home</a>
+    <a href="about.html" data-i18n="nav.about">About</a>
+    <a href="products.html" data-i18n="nav.products">Products</a>
+    <a href="markets.html" data-i18n="nav.markets">Markets</a>
+    <a href="harvest.html" data-i18n="nav.harvest">Harvest</a>
+    <a href="contact.html" data-i18n="nav.contact">Contact</a>
+  </nav>
+  <div class="lang-select">
+    <select id="langSwitcher">
+      <option value="fa">🇮🇷 فارسی</option>
+      <option value="en">🇬🇧 English</option>
+      <option value="ru">🇷🇺 Русский</option>
+      <option value="ar">🇦🇪 عربي</option>
+      <option value="tr">🇹🇷 Türkçe</option>
+      <option value="ps">🇦🇫 پښتو</option>
+      <option value="ur">🇵🇰 اردو</option>
+    </select>
+  </div>
+</header>
+
+<main class="container">
+  <h1 data-i18n="contact.title">Contact Us</h1>
+  <p class="note" data-i18n="contact.note">Fill the form below. Your message will open in WhatsApp to send directly.</p>
+  <form id="whatsappForm" class="form">
+    <label for="name"><span data-i18n="contact.form.name">Name</span></label>
+    <input id="name" type="text" placeholder="" required>
+
+    <label for="email"><span data-i18n="contact.form.email">Email</span></label>
+    <input id="email" type="email" placeholder="" required>
+
+    <label for="message"><span data-i18n="contact.form.message">Message</span></label>
+    <textarea id="message" rows="5" placeholder="" required></textarea>
+
+    <button type="submit" class="btn primary" id="waBtn" data-i18n="contact.form.sendWhatsApp">Send via WhatsApp</button>
+  </form>
+
+  <div class="contact-cards" style="margin-top:18px">
+    <div class="c-card">
+      <b>WhatsApp</b>
+      <a href="https://wa.me/989115694024" target="_blank">+98 911 569 4024</a>
+    </div>
+    <div class="c-card">
+      <b data-i18n="contact.phone">Phone</b>
+      <span>+98 911 569 4024</span>
+    </div>
+    <div class="c-card">
+      <b>Email</b>
+      <a href="mailto:info@friva-export.com">info@friva-export.com</a>
+    </div>
+    <div class="c-card">
+      <b>Instagram</b>
+      <a href="https://instagram.com/friva" target="_blank">@friva</a>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <img src="images/logo.jpg" alt="Friva Logo" class="footer-logo">
+  <small data-i18n="footer">© 2025 Friva — All rights reserved.</small>
+</footer>
+</body>
+</html>
+
